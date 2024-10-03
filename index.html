@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>NOMAN | PORTFOLIO</title>
+</head>
+
+
+<style>
+  .social-container {
+      display: flex;
+      gap: 20px;
+  }
+
+  .social-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .social-item a {
+      color: #333;
+      font-size: 24px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .social-item:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .social-item.linkedin a {
+      color: #0e76a8;
+  }
+
+  .social-item.github a {
+      color: #333;
+  }
+</style>
+
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>N</span>oman <span>Z</span>ulfiqar</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Noman <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        <p>Passionate and innovative software engineer with a knack for developing high-quality, user-centric applications. Proficient in modern web technologies, with a proven track record of delivering impactful projects that enhance user experiences and drive business success.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Devops Engineer</h2>
+          <p>Proactive DevOps engineer with expertise in automating and optimizing mission-critical deployments. Skilled in CI/CD, cloud infrastructure, and monitoring tools, ensuring efficient and reliable software delivery.
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>React JS</h2>
+          <p>Experienced React.js developer with a strong ability to build scalable and high-performing web applications. Proficient in JavaScript, HTML, and CSS, committed to delivering seamless user interfaces and engaging user experiences.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Front-end Developer</h2>
+          <p>Dynamic front-end developer skilled in creating responsive and interactive web applications. Proficient in HTML, CSS, JavaScript, and React, dedicated to enhancing user experiences through innovative design and development.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Web Design</h2>
+          <p>Passionate and innovative software engineer with a knack for developing high-quality, user-centric applications. Proficient in modern web technologies, with a proven track record of delivering impactful projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>AWS Serverless CI/CD Pipeline with Docker and Kubernetes</h2>
+            <p>Developed a scalable and cost-efficient serverless CI/CD pipeline using AWS services, Docker, and Kubernetes. The project automates the build, test, and deployment of microservices, leveraging AWS CodePipeline, CodeBuild, Lambda, and EKS. It also integrates real-time monitoring and logging for better visibility and management.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Quiz App</h2>
+            <p>Built an interactive quiz application using React. Enabled users to answer quiz questions and receive their results at the end. Focused on delivering a seamless user experience with real-time feedback and result calculation.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Food Ordering App</h2>
+            <p>Developed a user-friendly food ordering application using HTML and CSS for the front end and MySQL with PHP for the back end. Implemented features for browsing menus and placing orders, enhancing the overall user experience and streamlining order management.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+     
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/nomi.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Devops Engineer</h2>
+        <p>I am a DevOps engineer with expertise in automating CI/CD pipelines and optimizing infrastructure using AWS, Docker, and Kubernetes. I focus on streamlining software delivery, improving scalability, and ensuring efficient, reliable deployments. Passionate about bridging development and operations, I aim to drive innovation and efficiency in every project.</p>
+        <a href="./img/resume.jpg" download="Your_Resume.jpg" class="cta">Download Resume</a>
+
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+92 331 4748582</h2>
+           
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>chnoman1213@gmail.com</h2>
+         
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Raiwind Road, Lahore, Pakistan</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>N</span>oman <span>Z</span>ulfiqar</h1>
+      </div>
+      
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/noman.prince.779857"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/emm_nomi/"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/nomanzulfiqar/">
+              <i class="fab fa-linkedin"></i>
+          </a>
+      </div>
+      <div class="social-item">
+          <a href="https://github.com/NomanZulfiqar">
+              <i class="fab fa-github"></i>
+          </a>
+      </div>
+      
+      </div>
+      <p>Copyright © 2024 Noman. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
